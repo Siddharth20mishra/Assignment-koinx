@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "72f4f30e-184a-43fa-8327-8cbc4ddf8e1a",
+		"name": "ASSIGNMENT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37127513"
+	},
+	"item": [
+		{
+			"name": "assignment",
+			"item": [
+				{
+					"name": "stats",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/stats?coin=ethereum",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"stats"
+							],
+							"query": [
+								{
+									"key": "coin",
+									"value": "ethereum"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deviation",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/deviation?coin=ethereum",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"deviation"
+							],
+							"query": [
+								{
+									"key": "coin",
+									"value": "ethereum"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
